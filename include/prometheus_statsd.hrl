@@ -1,0 +1,2 @@
+-define(APP, prometheus_statsd).
+-define(DEFREGISTRY, prometheus_global).

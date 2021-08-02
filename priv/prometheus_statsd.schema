@@ -1,0 +1,16 @@
+%% prometheus_statsd config
+
+{mapping, "prometheus.server", "prometheus_statsd.prometheus_server", [
+  {default, "http://127.0.0.1:9090"},
+  {datatype, string}
+]}.
+
+{mapping, "statsd.push_gateway", "prometheus_statsd.push_gateway", [
+  {default, "http://127.0.0.1:9091"},
+  {datatype, string}
+]}.
+
+{mapping, "statsd.interval", "prometheus_statsd.interval", [
+  {default, 5000},
+  {datatype, integer}
+]}.

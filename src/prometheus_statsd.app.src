@@ -1,0 +1,7 @@
+{application,prometheus_statsd,
+             [{description,"Prometheus For Erlang"},
+              {vsn,"1.4.1"},
+              {modules,[]},
+              {registered,[prometheus_statsd_sup]},
+              {applications,[kernel,stdlib,prometheus]},
+              {mod,{prometheus_statsd_app,[]}}]}.

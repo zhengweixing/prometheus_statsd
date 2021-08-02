@@ -1,0 +1,21 @@
+[
+  {
+    "name": "node",
+    "help": "节点信息,CPU,内存",
+    "type": "gauge",
+    "labels": [
+      {
+        "label": "key",
+        "values": [
+          "load1",
+          "load5",
+          "load15",
+          "max_fds",
+          "allocated_memory",
+          "total_memory",
+          "used_memory"
+        ]
+      }
+    ]
+  }
+]
